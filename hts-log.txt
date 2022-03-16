@@ -1,0 +1,12 @@
+HTTrack3.45-3+htsswf+htsjava launched on Thu, 12 Jan 2017 10:10:41 at http://www.residencialluizaqueiroz.com.br/index.php +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "pt, en, *" http://www.residencialluizaqueiroz.com.br/index.php -O1 "C:\Users\João Paulo\Documents\luiza queiroz" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:16:12	Error: 	"Not Found" (404) at link www.residencialluizaqueiroz.com.br/mobile/pics/bt-menu.jpg (from www.residencialluizaqueiroz.com.br/mobile/css/estilo.css)
+
+HTTrack Website Copier/3.45-3 mirror complete in 5 minutes 33 seconds : 90 links scanned, 88 files written (8030114 bytes overall) [8060140 bytes received at 24204 bytes/sec], 1.8 requests per connection
+(1 errors, 0 warnings, 0 messages)

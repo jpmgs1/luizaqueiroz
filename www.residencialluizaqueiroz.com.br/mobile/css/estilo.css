@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, form, ul, fieldset, p, h1, h2, h3, h4, h5 {margin: 0; padding: 0;}
+body {font:100%/110% arial; background:url(../pics/bg.jpg) no-repeat center;}
+body img {display:block; outline:0;}
+a {text-decoration:none; outline:0;}
+object {outline:0;}
+li {list-style:none;}
+a img, fieldset {border: 0;}
+p.center {text-align:center;}
+p.right {text-align:right;}
+p, h1, h2, h3, h4, h5 {margin-bottom:11px;}
+div.clear {clear: both;}
+
+html, body {height:100%;}
+
+
+#content {position:relative; width:640px; margin:0 auto;}
+
+
+#conteudo-home {width:640px;height:960px;background:url(../pics/home3.jpg) no-repeat;position:relative;margin:0 auto;}
+
+#conteudo-empreendimento {width:640px;height:960px;background:url(../pics/empreendimento.jpg) no-repeat;position:relative;margin:0 auto;}
+
+#conteudo-imagens {width:640px;height:960px;background:url(../pics/imagens.jpg) no-repeat;position:relative;margin:0 auto;}
+
+#conteudo-localizacao {width:640px;height:960px;background:url(../pics/localizacao.jpg) no-repeat;position:relative;margin:0 auto;}
+
+#conteudo-preco {width:640px;height:960px;background:url(../pics/preco.jpg) no-repeat;position:relative;margin:0 auto;}
+
+
+
+#menu2 {position:absolute;top:50px;left:250px;}
+
+
+.btn-slide{background:url(../pics/bt-menu.html) no-repeat;width:200px;height:33px;display:block;position:absolute;top:20px;left:250px;}
+
+
+#lista-imagens {position:absolute;top:270px;left:90px;}
+#lista-imagens ul li {float:left;display:inline;margin:10px 15px 25px 0;border:2px solid #222;}
+
+
+#texto-contato {width:600px;position:absolute;top:180px;left:5px;}
+#texto-contato h2 {font:normal 30px Verdana, Geneva, sans-serif;color:#84151b;margin:0 30px;text-align:center;} 
+#texto-contato p {margin:15px auto 10px 40px !important;font:normal 14px Verdana, Geneva, sans-serif;color:#84151b;margin:0 30px 0 30px;} 
+#texto-contato p a {color:#84151b}
+#texto-contato p a:hover {color:#000}
+
+#form-contato {position:absolute;top:360px;left:120px; width:620px;}
+
+
+#form-contato fieldset {border:none; width:620px;}
+
+.contato, textarea {font:normal 13px arial; color:#000;border:1px solid #DFDFDF;background:#fff}
+#form-contato select{margin: 0 0 4px 7px; padding: 9px 6px 6px; width: 264px;}
+.contato:hover, textarea:hover {border:1px solid #504c2e;}
+
+#form-contato label {width:300px;font:bold 11px Trebuchet MS, arial;color:#000;text-align:left;padding-right:8x;padding-top:6px;float:left; display:inline;cursor:pointer;margin-left:9px;}
+
+input.contato {width:300px;height:15px;margin:0 7px 7px 7px;padding:6px 0;}
+textarea {width:351px;height:120px;margin:0 0 0 7px;overflow:auto;padding:5px 0;}
+
+#enviar {width:80px;height:20px;border:none;background:#952a2e;cursor:pointer;float:left;display:inline;margin:10px 0 0 280px;
+color:#fff;font:bold 10px verdana;}
+
+
+#menu-empreendimento {position:absolute;bottom:20px;right:30px;}
+#menu-empreendimento ul li {float:left;display:inline;margin:0 0 0 5px;}
+#menu-empreendimento ul li a {padding:6px;background:#7bb4ba;color:#0c212c;text-decoration:none;}
+
+
+#marcas {width:209px;height:108px;position:absolute;bottom:80px;left:245px;}

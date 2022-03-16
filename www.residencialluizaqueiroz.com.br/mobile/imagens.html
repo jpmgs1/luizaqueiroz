@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.residencialluizaqueiroz.com.br/mobile/imagens.php by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 12 Jan 2017 13:14:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Residencial Luiza Queiroz</title>
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css" />
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+
+
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="shadowbox/shadowbox.js"></script>
+
+
+<script type='text/javascript'>
+Shadowbox.init({
+overlayColor: "#000",
+overlayOpacity: 0.8,
+});
+</script>
+
+
+<script>
+function IsNum(v)
+
+{
+   var ValidChars = "0123456789";
+   var IsNumber=true;
+   var Char;
+
+ 
+   for (i = 0; i < v.length && IsNumber == true; i++) 
+      { 
+      Char = v.charAt(i); 
+      if (ValidChars.indexOf(Char) == -1) 
+         {
+         IsNumber = false;
+         }
+      }
+   return IsNumber;
+   
+}
+
+function valida(form) {
+if (form.nome.value=="") {
+alert("Preencha o nome corretamente.");
+form.nome.focus();
+return false;
+}
+var filtro_mail = /^.+@.+\..{2,3}$/
+if (!filtro_mail.test(form.email.value) || form.email.value=="") {
+alert("Preencha o e-mail corretamente.");
+form.email.focus();
+return false;
+}
+
+
+if (form.tel.value=="") {
+alert("Preencha o telefone corretamente.Preencha o DDD e o seu telefone (Formato: DDD + Telefone)");
+form.tel.focus();
+return false;
+}
+
+}
+
+function telefone(f) {
+if (f.tel.value.length<9 || f.tel.value.length>10) {
+alert("Preencha o telefone corretamente.");
+f.tel.focus();
+}else{
+ddd = f.tel.value.substring(0,2);
+if (f.tel.value.length==9) {
+part1 = f.tel.value.substring(2,5);
+part2 = f.tel.value.substring(5,9);
+}
+if (f.tel.value.length==10) {
+part1 = f.tel.value.substring(2,6);
+part2 = f.tel.value.substring(6,10);
+}
+f.tel.value = "("+ddd+") "+part1+"-"+part2
+}
+}
+</script>
+
+
+
+
+</head>
+
+<body id="pg-home">
+<div id="container">
+<div id="content">
+
+ 
+
+
+<div id="conteudo-imagens">
+
+<form style="margin:50px 0 0 220px;position:absolute;top:20px;" name="jump">
+<select style="height:40px;width:250px;padding:10px 0;text-align:center;" name="menu" onChange="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;" value="GO">
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="index-2.html">Menu</option>
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="index-2.html">Home</option>
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="empreendimento.html">Empreendimento</option>
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="imagens.html">Imagens</option>
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="localizacao.html">Localização</option>
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="tabeladeprecos.html">Tabela de Preços</option>
+<option style="height:40px;width:250px;padding:10px 0;text-align:center;" value="contato.html">Contato</option>
+</select>
+</form>
+
+
+ 
+<div id="lista-imagens">
+<ul>
+<li><a href="pics/fotos/foto01.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft01.jpg"  /></a></li>
+<li><a href="pics/fotos/foto02.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft02.jpg"  /></a></li>
+<li><a href="pics/fotos/foto03.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft03.jpg"  /></a></li>
+<li><a href="pics/fotos/foto04.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft04.jpg"  /></a></li>
+<li><a href="pics/fotos/foto05.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft05.jpg"  /></a></li>
+<li><a href="pics/fotos/foto06.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft06.jpg"  /></a></li>
+<li><a href="pics/fotos/foto07.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft07.jpg"  /></a></li>
+<li><a href="pics/fotos/foto08.jpg" rel="shadowbox[lista-imagens]"><img src="pics/fotos/ft08.jpg"  /></a></li>
+</ul>
+</div> 
+
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+</body>
+
+<!-- Mirrored from www.residencialluizaqueiroz.com.br/mobile/imagens.php by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 12 Jan 2017 13:16:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+</html>
+
